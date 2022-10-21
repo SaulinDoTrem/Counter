@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, .operation-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-title{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.counter{
+    font-size: 55px;
+}
+
+.operations-list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.operation-button{
+    background-color: transparent;
+    padding: 5px 5px;
+    text-transform: uppercase;
+}
